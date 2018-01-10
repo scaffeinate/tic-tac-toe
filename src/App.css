@@ -1,25 +1,35 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fb515a;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.title {
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: white;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.wrapper {
+    margin-top: 75px;
 }
 
-.App-title {
-  font-size: 1.5em;
+table {
+    margin-top: 50px;
+    border: 6px solid white !important;
 }
 
-.App-intro {
-  font-size: large;
+table td {
+    border: 6px solid white !important;
+    height: 105px;
+    font-size: 4.25rem;
+    font-weight: 700;
+    color: white;
+}
+
+table td:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
 }
 
 @keyframes App-logo-spin {
